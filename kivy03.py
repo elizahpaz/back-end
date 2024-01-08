@@ -14,7 +14,7 @@ class ExemploLayout(App):
         colors = [red, green, blue, purple]
 
         for i in range(5):
-            btn = Button(text = f"esse é o botão #{i+1}",
+            btn = Button(text = f"esse é o botão 0{i+1}",
             background_color = random.choice(colors))
             layout.add_widget(btn)
         return layout
